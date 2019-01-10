@@ -5,8 +5,8 @@ https://github.com/gpodder/gpodder-sailfish/issues/46
 git clone --recursive https://github.com/gpodder/gpodder-sailfish.git
 cd gpodder-sailfish
 sh dev_symlinks.sh
-rsync -avP . nemo@192.168.1.188:gpodder-sailfish/
-ssh nemo@192.168.1.188
+rsync -avP . nemo@192.168.2.15:gpodder-sailfish/
+ssh nemo@192.168.2.15
 cd gpodder-sailfish
 devel-su pkcon install qtchooser qt5-qtdeclarative-qmlscene
  if there are some errors not finding a package do a devel-su pkcon refresh
