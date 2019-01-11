@@ -11,5 +11,5 @@ cd gpodder-sailfish
 devel-su pkcon install qtchooser qt5-qtdeclarative-qmlscene
  if there are some errors not finding a package do a devel-su pkcon refresh
 
-qmlscene qml/harbour-org.gpodder.sailfish.qml
+qmlscene gpodder-sailfish/qml/harbour-org.gpodder.sailfish.qml
 
